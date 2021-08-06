@@ -1,0 +1,7 @@
+C:\Users\Rogerio\source\repos\ProgramaDynamic\ProgramaDynamic\bin\Debug\ProgramaDynamic.exe.config
+C:\Users\Rogerio\source\repos\ProgramaDynamic\ProgramaDynamic\bin\Debug\ProgramaDynamic.exe
+C:\Users\Rogerio\source\repos\ProgramaDynamic\ProgramaDynamic\bin\Debug\ProgramaDynamic.pdb
+C:\Users\Rogerio\source\repos\ProgramaDynamic\ProgramaDynamic\obj\Debug\ProgramaDynamic.csproj.CoreCompileInputs.cache
+C:\Users\Rogerio\source\repos\ProgramaDynamic\ProgramaDynamic\obj\Debug\ProgramaDynamic.exe
+C:\Users\Rogerio\source\repos\ProgramaDynamic\ProgramaDynamic\obj\Debug\ProgramaDynamic.pdb
+C:\Users\Rogerio\source\repos\ProgramaDynamic\ProgramaDynamic\obj\Debug\ProgramaDynamic.csprojAssemblyReference.cache
