@@ -12,7 +12,7 @@ namespace ProgramaDynamic
         static void Main(string[] args)
         {
             List<dynamic> alunos = new List<dynamic>();
-            Console.WriteLine("Digite a quantidade de alunos");
+            Console.Write("Digite a quantidade de alunos: ");
             int qte = Convert.ToInt32(Console.ReadLine());
             double[] notas;
             notas = new double[5];
@@ -20,17 +20,24 @@ namespace ProgramaDynamic
             {
                 double media = 0;
                 string status;
-                Console.WriteLine("Digite o nome do aluno: ");
+                Console.Write("Digite o nome do aluno: ");
                 string nome = Console.ReadLine();
-                Console.WriteLine("Digite a Matrícula do aluno:");
+                Console.Write("Digite a Matrícula do aluno: ");
                 string matricula = Console.ReadLine();
-                for (int x = 1; x <= 4; x++)
-                {
-                    Console.WriteLine("Digite a " + x + " ª nota do aluno: " + nome);
-                    notas[x - 1] = Convert.ToDouble(Console.ReadLine());
-                    media = media + notas[x - 1];
-                }
-                media = media / 4;
+                /*for (int x = 1; x <= 4; x++)
+                        Console.WriteLine("Digite a " + x + " ª nota do aluno: " + nome);
+                       notas[x - 1] = Convert.ToDouble(Console.ReadLine());
+                       media = media + notas[x - 1];
+                   }*/
+                Console.Write("Digite a 1ª nota do aluno " + nome + " ");
+                double nota1 = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Digite a 2ª nota do aluno " + nome + " ");
+                double nota2 = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Digite a 3ª nota do aluno " + nome + " ");
+                double nota3 = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Digite a 4ª nota do aluno " + nome + " ");
+                double nota4 = Convert.ToDouble(Console.ReadLine());
+                media = (nota1+nota2+nota3+nota4) / 4;
                 if (media >= 7)
                 {
                     status = "Aprovado";
@@ -43,10 +50,11 @@ namespace ProgramaDynamic
                 {
                     Nome = nome,
                     Matricula = matricula,
-                    Notas = notas[0] + "," + notas[1] + "," + notas[2] + "," + notas[3],
+                    //Notas = notas[0] + "," + notas[1] + "," + notas[2] + "," + notas[3],
+                    Notas = nota1 + "," + nota2 + "," + nota3 + "," + nota4,
                     Media = media,
                     Status = status
-                });
+                }); ; ;
                 media = 0;
             }
             Console.WriteLine("Segue relação de alunos");
